@@ -22,8 +22,8 @@ x = float(input("Enter a number: "))
 y = float(input("Enter another number: "))
 
 #creating the output strings
-s1 = repr(x) + ' raised to the power of ' + repr(y) + ' = ' + repr(x**y)
-s2 = 'log (base 2) of ' + repr(x) + ' = ' + repr(log(x, 2))
+s1 = str(x) + ' raised to the power of ' + str(y) + ' = ' + str(x**y)
+s2 = 'log (base 2) of ' + str(x) + ' = ' + str(log(x, 2))
 
 #printing out the outputs
 print('\n')
