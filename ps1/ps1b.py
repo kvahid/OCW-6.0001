@@ -27,7 +27,7 @@ month_counter = 0
 
 #main loop
 while current_saving < portion_down_payment*total_cost:
-    #salary raise logic
+    #salary raise every six months
     if ((month_counter % 6) == 0) and (month_counter > 0):
         annual_salary *= 1 + semi_annual_raise
     current_saving += current_saving*r/12 + portion_saved*annual_salary/12
