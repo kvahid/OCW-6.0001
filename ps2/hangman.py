@@ -1,5 +1,5 @@
 # Problem Set 2, hangman.py
-# Name: 
+# Name: Vahid Karimi
 # Collaborators:
 # Time spent:
 
